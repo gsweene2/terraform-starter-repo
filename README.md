@@ -7,10 +7,10 @@ terraform init
 
 ## Step 2: Plan Resources
 ```
-terraform plan -var-file="vars/dev.tfvars"
+terraform plan -var-file="vars/dev-east.tfvars"
 ```
 
 ## Step 3: Apply Resources
 ```
-terraform apply -var-file="vars/dev.tfvars"
+terraform apply -var-file="vars/dev-east.tfvars"
 ```
