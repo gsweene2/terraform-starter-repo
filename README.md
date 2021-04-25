@@ -1,5 +1,10 @@
 # Terraform Starter
 
+## Step 0: Create `.tfvars` file
+```
+mkdir vars && echo 'aws_region = "us-east-1"' > vars/dev-east.tfvars
+```
+
 ## Step 1: Initialize Repo
 ```
 terraform init
